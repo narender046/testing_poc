@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 
 ADD . /app/
 
-CMD ["python3", "/webapp.py"]
+CMD ["python3", "./webapp.py"]
